@@ -2,14 +2,19 @@ p {
     
 }
 
+h1{
+  font-family: 'Archivo Black';
+  font-size: 38px;
+}
+
 main{
   display: inline-block;
   position: relative;
   left: 25%;
   top: 10%;
-  
   color: black;
-  padding: 20px;
+  padding: 80px 0;
+  margin: 0 auto;
   font-family: "Oswald", sans-serif;
   max-width: 50%;
   min-width: 25%;
@@ -17,7 +22,7 @@ main{
 }
   
 body {
-  background: rgb(152, 241, 227);
+  background: rgb(255, 255, 255);
 }
 
 .container{
@@ -33,42 +38,24 @@ body {
 img{
   max-height: 120px;
   max-width: 120px;
+  align-content: right;
 }
 
 #istore{
   flex: 30%;
   left: 70%;
+  align-items: right;
 }
 
 
   
 .sub-heading {
-  text-shadow: 3px 4px rgb(134, 241, 245);
+  text-shadow: 3px 4px rgb(228, 228, 228);
 }
   
   
 
 
-header {
-  background-color: rgb(123, 197, 186);
-  position: fixed;
-  color: azure;
-  z-index: 1;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-nav{
-  padding: 0;
-  margin: 0;
-  
-}
-
-nav li{
-  display: inline-block;
-  width: 80px;
-}
 
 @media (max-width: 500px){
     main h1{
